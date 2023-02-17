@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: #d5e1ef;
+    font-family: 'Assistant', sans-serif;
+}
+
+h2{
+    padding: 20px 20px 20px 20px ;
+}
+
+.attribution{
+
+}
+
+.content{
+    background-color: #ffffff;
+    width: 23%;
+    border-radius: 15px;
+    margin: auto; 
+    margin-top: 30px;
+    font-weight: 700;
+    font-style: initial;
+}
+
+.image-qr-code{
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-bottom: 0px;
+
+}
+
+
+
+.sub-discription{
+    margin: 0 20px 30px 20px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
