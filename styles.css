@@ -1,36 +1,103 @@
 body{
-    text-align: center;
-    background-color: #d5e1ef;
-    font-family: 'Assistant', sans-serif;
+    background-color: rgb(198, 198, 241);
+    color: gray;
 }
 
-h2{
-    padding: 20px 20px 20px 20px ;
-}
-
-
-.content{
-    background-color: #ffffff;
-    width: 23%;
-    border-radius: 15px;
-    margin: auto; 
-    margin-top: 30px;
+h1{
+    font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-style: initial;
+    line-height: 0.9;
+    margin: 2rem 0;
+    color: black;
 }
 
-.image-qr-code{
-    width: 90%;
-    border-radius: 15px;
-    margin-top: 15px;
-    padding-bottom: 0px;
+.container-fluid{
+    padding: 7% 30%;
+}
 
+
+.big-box{
+   background-color: white;
+   border-radius: 12px;
+}
+
+/* image */
+
+.img-fluid{
+    max-width: 100;
+    height: auto;
+}
+
+.image{
+    height: 100%;
+}
+
+.big-box-img{
+    padding: 0;
+}
+
+
+/* disciption */
+
+.big-box-dis{
+    padding: 3%;
+}
+
+.dis-header{
+    font-family: 'Major Mono Display', monospace;
+    letter-spacing: 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
 }
 
 
 
-.sub-discription{
-    margin: 0 20px 30px 20px;
-    padding-bottom: 30px;
-    font-weight: 400;
+
+/* price */
+
+#price-grid{
+    margin: 2rem 0;
 }
+
+.price,.fake-price{
+    display: inline-block;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #40816b;
+}
+
+.fake-price{
+    padding-top: 1rem;
+}
+
+
+/* botton */
+
+.button{
+    margin-top: 1rem;
+}
+
+@media (max-width:766px){
+    body{
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* 
+
+font-family: 'Assistant', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+*/
